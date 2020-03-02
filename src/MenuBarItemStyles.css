@@ -1,0 +1,19 @@
+.Button {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color: red;
+  height: 50px;
+  border-radius: 20px;
+  text-align: center;
+  min-width: 100px;
+  margin-right: 6px;  
+  margin-left: 6px;
+}
+.Label {
+  margin: 0 auto;
+  align-self: center;
+  font-size: 22px;
+  font-weight: bolder;
+  color: #282c34;
+}

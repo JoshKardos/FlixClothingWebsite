@@ -1,7 +1,29 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
+.Support {
+  height: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  padding-top: 160px;
+}
+
+.Right {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid red;
+  padding-bottom: 6px;
+}
+
+.PrivacyPolicy {
+  text-align: left;
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,8 +36,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
